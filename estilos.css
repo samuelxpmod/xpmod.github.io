@@ -1,0 +1,153 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.header-logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-nav ul li {
+    margin-right: 20px;
+}
+
+.header-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header-nav ul li a:hover {
+    color: #ff6600;
+}
+
+
+/* MAIN */
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	top: 50px;
+}
+
+
+/* NOSOTROS */
+
+#nosotros {
+	background-color: #f9f9f9;
+	padding: 50px;
+	text-align: center;
+	top: 50px;
+}
+
+#nosotros h2 {
+	color: #333;
+	margin-bottom: 30px;
+}
+
+/* NOTICIA */
+
+.noticia {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .noticia h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .noticia p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+  }
+  
+
+/* Opiniones/Testimonios */
+
+#testimonios {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 50px;
+}
+
+#testimonios h2 {
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.testimonio {
+	margin-bottom: 50px;
+	max-width: 600px;
+}
+
+.usuario {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.usuario img {
+	border-radius: 50%;
+	margin-right: 20px;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+
+.usuario h3 {
+	color: #333;
+	font-size: 20px;
+	margin: 0;
+}
+
+.testimonio p {
+	color: #777;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0;
+}
